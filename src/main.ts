@@ -13,7 +13,9 @@ console.log("isAdmin: " + isAdmin1);
 console.log("age > 18: " + (age1 > 18));
 console.log("score === 100: " + (score1 === 100));
 console.log("username === 'John': " + (username1 === 'John'));
+/*
 console.log("isAdmin === true: " + (isAdmin1 === true));
+*/
 
 // Objekt und Array
 const student = {
