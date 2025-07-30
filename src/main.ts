@@ -81,21 +81,19 @@ if (score !== 0) {
         }
         */
 
-// if (!username) prüft, ob username falsy ist – also "" (leer), null, undefined, 0, false oder NaN.
         if (!username) {
             console.log("Username is evaluated as falsy.");
         } else {
             console.log("Username is evaluated as truthy.");
         }
 
-// Schritt 7: Prüfen, ob isAdmin als truthy bewertet wird
+
         if (isAdmin) {
             console.log("isAdmin is evaluated as truthy.");
         } else {
             console.log("isAdmin is evaluated as falsy.");
         }
 
-// Schritt 8: Prüfen, ob isAdmin genau false ist
         if (!isAdmin) {
             console.log("isAdmin is false.");
         }
