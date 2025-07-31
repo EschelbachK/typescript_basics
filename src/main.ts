@@ -98,4 +98,68 @@ if (score !== 0) {
             console.log("isAdmin is false.");
         }
     }
+
+    // Aufgabe 1: Boolesche Werte
+    const boolTrue = true;
+    console.log('boolTrue ist', boolTrue ? 'wahrhaftig' : 'falsch');
+
+    const boolFalse = false;
+    console.log('boolFalse ist', boolFalse ? 'wahrhaftig' : 'falsch');
+
+// Aufgabe 2: Ganzzahlwerte
+    const numOne = 1;
+    console.log('numOne ist', numOne ? 'wahrhaftig' : 'falsch');
+
+    const numZero = 0;
+    console.log('numZero ist', numZero ? 'wahrhaftig' : 'falsch');
+
+    const numMinusOne = -1;
+    console.log('numMinusOne ist', numMinusOne ? 'wahrhaftig' : 'falsch');
+
+// Aufgabe 3: Zeichenkettenwerte
+    const strHi = "hi";
+    console.log('strHi ist', strHi ? 'wahrhaftig' : 'falsch');
+
+    const strEmpty = "";
+    console.log('strEmpty ist', strEmpty ? 'wahrhaftig' : 'falsch');
+
+    const strSpace = " ";
+    console.log('strSpace ist', strSpace ? 'wahrhaftig' : 'falsch');
+
+    const strZero = "0";
+    console.log('strZero ist', strZero ? 'wahrhaftig' : 'falsch');
+
+    const strFalse = "false";
+    console.log('strFalse ist', strFalse ? 'wahrhaftig' : 'falsch');
+
+// Aufgabe 4: Array-Werte
+    const arrEmpty: any[] = [];
+    console.log('arrEmpty ist', arrEmpty ? 'wahrhaftig' : 'falsch');
+
+    const arrOne = [1];
+    console.log('arrOne ist', arrOne ? 'wahrhaftig' : 'falsch');
+
+    const arrZero = [0];
+    console.log('arrZero ist', arrZero ? 'wahrhaftig' : 'falsch');
+
+    const arrFalse = [false];
+    console.log('arrFalse ist', arrFalse ? 'wahrhaftig' : 'falsch');
+
+// Aufgabe 5: Objektwerte
+    const objEmpty = {};
+    console.log('objEmpty ist', objEmpty ? 'wahrhaftig' : 'falsch');
+
+    const objPerson = { name: "John" };
+    console.log('objPerson ist', objPerson ? 'wahrhaftig' : 'falsch');
+
+// Bonus: Du kannst auch zusätzliche Fälle wie `null`, `undefined` oder `NaN` testen
+    const bonusNull = null;
+    console.log('bonusNull ist', bonusNull ? 'wahrhaftig' : 'falsch');
+
+    const bonusUndefined = undefined;
+    console.log('bonusUndefined ist', bonusUndefined ? 'wahrhaftig' : 'falsch');
+
+    const bonusNaN = NaN;
+    console.log('bonusNaN ist', bonusNaN ? 'wahrhaftig' : 'falsch');
+
 }
